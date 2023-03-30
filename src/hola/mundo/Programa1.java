@@ -1,6 +1,8 @@
 
 package hola.mundo;
 
+import java.util.Scanner;
+
 public class Programa1 {
     
    public static void main(String[] args) {
@@ -86,12 +88,91 @@ public class Programa1 {
          //System.out.println(b);        
         
         
-        System.out.println("Result = " + 2+3+5);
-        System.out.println("Result = " + 2+3*5);
+        //System.out.p0rintln("Result = " + 2+3+5);
+        //System.out.println("Result = " + 2+3*5);
+        
+//        int x=45;
+//        double n=x;
+//        System.out.println("n = " + n);
         
         
+//          double r=4.5;
+//          int x= (int) r;
+//          System.out.println("r = " + r);
+//          System.out.println("x = " + x);
+
+
+
+//             double r = 4.5;
+//        int x = (int) r; //casting
+//
+//        System.out.println("r = " + r);
+//        System.out.println("x = " + x);
+//
+//
+//        byte b = 64;
+//        //char n = b;
+//        char n= (char) b;
+//        
+//        System.out.println("b = " + b);
+//        System.out.println("n = " + n);
+//
+//
+//        float r = 3.4f;
+//        //long l = r;  //error
+//        long l = (long) r;
+//        System.out.println("r = " + r);
+//        System.out.println("l = " + l);
+//
+
+         import java.util.Scanner;
+
+             public class Programa1 {
+
+            public static void main(String[] args) {
+
+//Lee la entrada del usuario y lo almacena en la variable scanner
+            Scanner scanner = new Scanner(System.in);
+
+// Solicita el mensaje
+            System.out.println("Introduce un mensaje: ");
+
+//Lee la cadena escrita por el usuario y lo asigna a la variable mensaje
+            String mensaje = scanner.nextLine(); //nextLine lee una linea completa
+
+// Imprime el mensaje introducido por el usuario
+            System.out.println("Tu mensaje es: "+mensaje);
+            
+
         
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
         
   }
